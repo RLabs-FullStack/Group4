@@ -130,3 +130,6 @@ let TotalAmount = () => {
 };
 TotalAmount();
 
+document.getElementById('backToShopping').addEventListener('click', function() {
+    window.location.href = 'index(New).html';
+});
